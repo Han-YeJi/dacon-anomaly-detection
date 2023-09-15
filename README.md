@@ -4,6 +4,9 @@ This repository is the 3rd place solution for [DACON Anomaly Detection Algorithm
 1. We consider the type and state of an object as a pair of classes and perform class-wise augmentation.
 2. To solve problems caused by class imbalance, the model additionally learned about specific objects is used for hard voting to make the final prediction.
 
+This is the overall model process.
+![model process](https://github.com/Han-YeJi/dacon-anomaly-detection/assets/84916071/f49a66ea-6c9e-420d-a6ec-70a57c7ea93f)
+
 ## Dataset description
 
 ## Main strategy(Other training techniques are omitted.)
