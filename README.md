@@ -1,12 +1,13 @@
-# Computer Vision 이상치 탐지 알고리즘 경진대회
+# Computer Vision Anomaly Detection Algorithm
+## Introduction
+This repository is the 3rd place solution for [DACON Anomaly Detection Algorithm contest](https://dacon.io/competitions/official/235894/overview/description). We developed an algorithm that can classify the type and state of objects by learning an imbalanced dataset. The key strategies used are as follows:
+1. We consider the type and state of an object as a pair of classes and perform class-wise augmentation.
+2. To solve problems caused by class imbalance, the model additionally learned about specific objects is used for hard voting to make the final prediction.
 
-### Public score 3th 0.90875 | Private score 3th 0.90494
+## Dataset description
 
-* 주최 : DACON
-* 주관 : DACON
-* [https://dacon.io/competitions/official/235870/overview/description](https://dacon.io/competitions/official/235894/overview/description)
+## Main strategy(Other training techniques are omitted.)
 
-### Overview
     - efficientnet-b1,b2를 이용하여 학습을 진행했습니다.
     - arcface loss, mixup 등 시도에서 별다른 성능 향상을 가져오지는 않았습니다.
     - 다른 팀들과는 다르게 efficientnet-b6,b7에 대해서 성능이 좋지 않아서 사용하지 않았습니다.
