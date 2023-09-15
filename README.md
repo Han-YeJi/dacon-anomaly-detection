@@ -5,7 +5,8 @@ This repository is the 3rd place solution for [DACON Anomaly Detection Algorithm
 2. To solve problems caused by class imbalance, the model additionally learned about specific objects is used for hard voting to make the final prediction.
 
 This is the overall model process.
-![model process](https://github.com/Han-YeJi/dacon-anomaly-detection/assets/84916071/f49a66ea-6c9e-420d-a6ec-70a57c7ea93f)
+
+![model process](https://github.com/Han-YeJi/dacon-anomaly-detection/assets/84916071/f49a66ea-6c9e-420d-a6ec-70a57c7ea93f){: width="60" height="60"}
 
 ## Dataset description
 
