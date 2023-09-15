@@ -17,7 +17,7 @@ MVTec's Anomaly Detection dataset consists of 15 object types and 49 object stat
    - To prevent overfitting due to class imbalance, change the state of the object to normal/anomaly and learn ① binary classification model. During inference ①, in the case of a sample classified as normal with low confidence, the predictions of main model is also adjusted to the second highest prediction when it is normal. (Based on F1 score, 0.8548 -> 0.8729)
    - To resolve low confidence in specific objects, we learned class-specific model. ② toothbrush model and ③ zipper model were used as post-processing. (Based on F1 score, 0.8729 -> 0.9087)
 
-## Usage
+## How to Use
 
 1. Install Library
     ```
